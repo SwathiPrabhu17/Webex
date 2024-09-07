@@ -1,17 +1,25 @@
+:root {
+  --blue: #14d0f0e6;
+  --pink: rgba(255, 131, 195, 0.4);
+  --white: rgba(255, 255, 255, 0.9);
+}
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
-  background-color: #ffffff;
+  /* background-color:#7adcee58; */
+
   color: rgb(0, 0, 0);
 }
 
 .navbar-items {
   display: flex;
-  gap: 20px;
-  background-color: black;
-  padding: 5px 40px;
+  gap: 40px;
+  z-index: 12;
+
+  background-color: var(--blue);
+  padding: 10px 50px;
   border-radius: 12px;
 }
 

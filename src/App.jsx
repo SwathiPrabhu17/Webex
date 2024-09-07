@@ -1,5 +1,8 @@
 import './App.css'
 import Navbar from './components/Navbar'
+import Hero from './components/Hero'
+import Blog from './components/Blog'
+import Carousel from './components/Carousel'
 
 function App() {
 
@@ -7,7 +10,9 @@ function App() {
     <>
      
       <Navbar/>
-      
+      <Hero/>
+      <Blog/>
+      <Carousel/>
     </>
   )
 }
