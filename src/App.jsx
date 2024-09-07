@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Blog from './components/Blog'
 import Carousel from './components/Carousel'
+// import About from './components/About'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Hero/>
       <Blog/>
       <Carousel/>
+      {/* <About/> */}
     </>
   )
 }
