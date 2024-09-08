@@ -2,7 +2,6 @@ import React from 'react';
 import backgroundImage from '/Images/widepen.jpg';
 import './About.css';
 
-
 function About() {
   return (
     <div className="about-container">
@@ -20,10 +19,27 @@ function About() {
       </div>
       <div className="about-content">
         <p>
-        We are Solukarft Pharmaceutical Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia omnis eveniet nesciunt amet voluptatum! Ipsam, cumque mollitia? Maiores perspiciatis, quisquam recusandae eius est deserunt! Consectetur eos a recusandae omnis quasi tenetur repellendus enim velit vero! Facilis vero illo laboriosam. Ullam?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorem ipsam officiis ab cupiditate recusandae veniam delectus dolore tenetur voluptate Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae pariatur sunt ut repudiandae eum id magni molestias perspiciatis minima sapiente, eaque, dignissimos saepe odit fugiat quis velit reiciendis ea excepturi!.....
         </p>
         <div className="explore-btn">
-            <a href="">Explore</a>
+          <a href="">Explore</a>
+        </div>
+      </div>
+      
+      <hr />
+
+      <div className="card-container">
+        <div className="card">
+          <h2>Our Mission</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae possimus voluptatibus pariatur molestias repellendus nemo est id similique. Deleniti, aperiam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, quaerat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, fugit!....
+          </p>
+        </div>
+        <div className="card">
+          <h2>Our Vision</h2>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae possimus voluptatibus pariatur molestias repellendus nemo est id similique. Deleniti, aperiam Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, quaerat! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, fugit!....
+          </p>
         </div>
       </div>
     </div>
