@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom'; // Import Link component
 import './Navbar.css';
 
 export default function Navbar() {
@@ -14,18 +15,15 @@ export default function Navbar() {
         <h1>Solukraft Pharmaceutical</h1>
       </div>
       <div className={`navbar-items ${isOpen ? 'open' : ''}`}>
-        {/* <button className="close-button" onClick={toggleMenu}>
-          &times;
-        </button> */}
-        <a href="#">HOME</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">PRODUCTS</a>
-        <a href="#">BLOG</a>
-        <a href="#">JOURNEY</a>
-        <a href="#">CONTACT US</a>
         <button className="close-button" onClick={toggleMenu}>
           &times; {/* Close icon */}
         </button>
+        <Link to="/">HOME</Link>
+        <Link to="/about">ABOUT US</Link>
+        <Link to="/products">PRODUCTS</Link>
+        <Link to="/blog">BLOG</Link>
+        <Link to="/journey">JOURNEY</Link>
+        <Link to="/contact">CONTACT US</Link>
       </div>
       <div className="navbar-toggle">
         <button className="navbar-button" onClick={toggleMenu}>
