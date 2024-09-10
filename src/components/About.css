@@ -2,6 +2,7 @@
   position: absolute;
   top: 0 !important;
   z-index: -2;
+
 }
 
 .about-header {
@@ -9,6 +10,7 @@
   align-items: center;
   justify-content: center;
 }
+
 
 .about-header h1 {
   color: var(--text-color);
@@ -51,7 +53,6 @@
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
-  animation: fadeInUp 1s ease-in-out;
 }
 
 .card {
@@ -62,9 +63,6 @@
   width: 45%;
   text-align: center;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  opacity: 0;
-  transform: translateY(20px);
-  animation: slideUp 0.5s ease-in-out forwards;
 }
 
 .card h2 {
@@ -80,28 +78,18 @@
 }
 
 .card:hover {
-  transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+@media (max-width: 768px) {
 
-@keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+.card-container {
+  display: block;
+  justify-content: space-around;
+
+}
+.card{
+  width: 90%;
+  margin: 1rem 1rem;
+}
 }
