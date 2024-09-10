@@ -27,8 +27,12 @@ className="header">
     </p>
     <button>Explore</button>
   </div>
-
 </header>
+<div className="scroll">
+      <a href="#scroll">
+        <i className="fa-solid fa-chevron-down"></i>
+      </a>
+</div>
    </>
   )
 }
