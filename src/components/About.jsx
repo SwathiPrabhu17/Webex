@@ -1,5 +1,5 @@
 import React from 'react';
-import backgroundImage from '/Images/widepen.jpg';
+import backgroundImage from '/Images/light-blue-background.jpg';
 import './About.css';
 
 function About() {
@@ -13,10 +13,12 @@ function About() {
           backgroundPosition: 'center',
           width: '100%',
           height: '30vh',
+         
         }}
       >
         <h1>About Us</h1>
       </div>
+    <div className="about-section">
       <div className="about-content">
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam dolorem ipsam officiis ab cupiditate recusandae veniam delectus dolore tenetur voluptate Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae pariatur sunt ut repudiandae eum id magni molestias perspiciatis minima sapiente, eaque, dignissimos saepe odit fugiat quis velit reiciendis ea excepturi!.....
@@ -24,6 +26,7 @@ function About() {
         <div className="explore-btn">
           <a href="">Explore</a>
         </div>
+      </div>
       </div>
       
       <hr />

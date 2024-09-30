@@ -1,18 +1,30 @@
 import React from 'react'
 import './Hero.css'
+import './Scroll.scss'
 
 function Hero() {
+ 
+  const handleScroll = () => {
+    window.scrollBy({
+      top: window.innerHeight, // Scroll down by 100vh
+      left: 0,
+      behavior: 'smooth' // Smooth scrolling
+    });
+    console.log("scroll clicked");
+  };
   return (
    
    <>
     {/* Background Video */}
-    <video autoPlay muted loop className="background-video">
-        <source src="/vedios/hero.mp4" type="video/mp4" />
-        Your browser does not support the video tag.
-      </video>
+   
 
-   <div className="background"></div>
-<div className="background-texture"></div>
+
+   <div className="background">
+
+<img src="/Images/hero2.jpg" alt="" className='background-video' />
+   </div>
+<div className="background-texture">
+</div>
 <header
 
 data-aos="zoom-in" data-aos-duration="1500" 
@@ -25,13 +37,14 @@ className="header">
     Transforming healthcare with innovative drug delivery pens, we provide precise, user-friendly 
     solutions for effortless medication management, enhancing the patient experience with advanced, reliable technology..
     </p>
-    <button>Explore</button>
+    <button >Explore</button>
   </div>
 </header>
-<div className="scroll">
-      <a href="#scroll">
-        <i className="fa-solid fa-chevron-down"></i>
-      </a>
+
+<div >
+  <div onClick={handleScroll} className='step'>
+      <i className="fa-solid fa-angles-down"></i>      
+</div>
 </div>
    </>
   )

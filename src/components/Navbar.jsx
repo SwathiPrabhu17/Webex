@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <div className="navbar-brand">
-        <h1>Solukraft Pharmaceutical</h1>
+        {/* <h1>Solukraft Pharmaceutical</h1> */}
       </div>
       <div className={`navbar-items ${isOpen ? 'open' : ''}`}>
         <button className="close-button" onClick={toggleMenu}>
