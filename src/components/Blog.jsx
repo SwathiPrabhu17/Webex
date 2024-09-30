@@ -6,8 +6,9 @@ function Blog() {
     <>
     <section className="bg">
 
-    <div data-aos="fade-up"
-     data-aos-duration="3000" className="blog-card">
+    <div 
+    
+      className="blog-card">
       <img className="blog-img" src="/Images/Blog1.jpeg" />
       <div className="text-overlay">
         <h2>Removing Warts: A user-friendly approach</h2>
@@ -16,8 +17,7 @@ function Blog() {
      </div>
     </div>
 
-    <div data-aos="fade-up"
-     data-aos-duration="3000" className="blog-card">
+    <div  className="blog-card">
       <img className="blog-img" src="/Images/Blog1.jpeg" />
       <div className="text-overlay">
         <h2>Removing Warts: A user-friendly approach</h2>
@@ -26,8 +26,7 @@ function Blog() {
      </div>
     </div>
 
-    <div data-aos="fade-up"
-     data-aos-duration="3000" className="blog-card">
+    <div  className="blog-card">
       <img className="blog-img" src="/Images/Blog1.jpeg" />
       <div className="text-overlay">
         <h2>Removing Warts: A user-friendly approach</h2>

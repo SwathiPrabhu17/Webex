@@ -1,5 +1,5 @@
 import Hero from './components/Hero'
-import Blog from './components/Blog'
+import Services from './components/Services'
 import Carousel from './components/Carousel'
 
 function Home() {
@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Hero/>
-      <Blog/>
+      <Services/>
       <Carousel/>
     </>
   )

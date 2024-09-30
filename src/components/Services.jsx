@@ -4,9 +4,11 @@ import './Services.css';
 function Services(){
     return(
         <>
-        <section className='services'>
+        <section data-aos="flip-up"
+    className='services'>
 		<div className='service-title'>
-			<h1>Our Domains</h1>
+			<h1 >What do we provide ? </h1>
+			
 		</div>
 	    <div className="row">
 		<div className="col-md-4 col-sm-6 col-xs-12">

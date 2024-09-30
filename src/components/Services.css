@@ -1,33 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;600&display=swap');
 
-/* --transition-time: 2.3s; */
 
-/* body{
-	font-family: 'Oswald', sans-serif;
-	background-color: #212121;
-	section{
-		width: 90%;
-		max-width: 1200px;
-		margin: 0 auto;
-		.row{
-			align-items: center;
-    	height: 100vh;
-		}
-	}
-} */
  .services{
  
    align-items: center;
-   /* height: 100vh;    */
-	/* background-color: green;- */
-    /* max-width: 1200px; */
     margin: 0;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
  }
- .service-title{
-	font-weight: 700;
+ .service-title h1{
+	font-weight: 900;
+	width: 100%;
+	text-align: center;
+	font-size: 3rem;
+	color: #3b365e;
  }
 .row{
 		width: 90%;
@@ -35,14 +22,14 @@
         align-items: center;
 		/* background-color: red; */
 	
-    height: 100vh;
+    height: 80vh;
     }
  
 .service-card{
 	position: relative;
 	height: 600px;
 	width: 100%;
-	margin: 10px 0;
+	/* margin: 10px 0; */
 	transition: ease all 2.3s;
 	perspective: 1200px;
 	&:hover{
@@ -115,7 +102,7 @@
 			left: 50px;
 			color: white;
 			transform-style: preserve-3d;
-  		transition: ease all 2.3s;
+  			transition: ease all 2.3s;
 			z-index:3;
 			font-size: 2.5rem;
 			transform: translateZ(0px);
@@ -146,12 +133,12 @@
 		justify-content: center;
 		p{
 			transform-style: preserve-3d;
-			transition: ease transform 2.3s, ease background .5s;
+			transition: ease transform 2.3s, ease .5s;
 			transform: translateZ(-1px) rotatey(-180deg);
 			background: transparent;
 			/* border: 1px solid white; */
 			font-weight: 600;
-			font-size: 1.9rem;
+			font-size: 1.5rem;
 			color: white;
 			padding: 14px 32px;
 			outline: none;
