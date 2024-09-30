@@ -12,7 +12,7 @@ function Blog() {
       <div className="text-overlay">
         <h2>Removing Warts: A user-friendly approach</h2>
         <span>Last updated on March 31 2024</span>
-        <p>Warts caused by the (HPV), would be harmful.. &nbsp;&nbsp;<a href="#" class="read-more">Read More</a></p>
+        <p>Warts caused by the (HPV), would be harmful.. &nbsp;&nbsp;<a href="#" className="read-more">Read More</a></p>
      </div>
     </div>
 
@@ -22,7 +22,7 @@ function Blog() {
       <div className="text-overlay">
         <h2>Removing Warts: A user-friendly approach</h2>
         <span>Last updated on March 31 2024</span>
-        <p>Warts caused by the (HPV), would be harmful.. &nbsp;&nbsp;<a href="#" class="read-more">Read More</a></p>
+        <p>Warts caused by the (HPV), would be harmful.. &nbsp;&nbsp;<a href="#" className="read-more">Read More</a></p>
      </div>
     </div>
 
@@ -32,7 +32,7 @@ function Blog() {
       <div className="text-overlay">
         <h2>Removing Warts: A user-friendly approach</h2>
         <span>Last updated on March 31 2024</span>
-        <p>Warts caused by the (HPV), would be harmful.. &nbsp;&nbsp;<a href="#" class="read-more">Read More</a></p>
+        <p>Warts caused by the (HPV), would be harmful.. &nbsp;&nbsp;<a href="#" className="read-more">Read More</a></p>
      </div>
     </div>
     
