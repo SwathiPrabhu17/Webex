@@ -1,0 +1,14 @@
+.product-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+  }
+  
+  .product-row .card {
+    flex: 1 1 18rem;
+    max-width: 18rem;
+    margin: 10px;
+  }
+  
