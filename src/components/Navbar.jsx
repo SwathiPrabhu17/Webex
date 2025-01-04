@@ -22,7 +22,6 @@ export default function Navbar() {
         <Link to="/about">ABOUT US</Link>
         <Link to="/products">PRODUCTS</Link>
         <Link to="/blog">BLOG</Link>
-        <Link to="/journey">JOURNEY</Link>
         <Link to="/contact">CONTACT US</Link>
       </div>
       <div className="navbar-toggle">

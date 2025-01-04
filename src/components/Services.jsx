@@ -29,7 +29,7 @@ function Services(){
 		<div className="col-md-4 col-sm-6 col-xs-12">
 			<div className="service-card">
 				<div className="cover item-b">
-					<h1>HDPE<br/> Gardern Manufacturing</h1>
+					<h1>HDPE<br/> Garden Manufacturing</h1>
 					{/* <span className="price">$35</span> */}
 					<div className="card-back">
 						{/* <a href="#">Add to cart</a> */}

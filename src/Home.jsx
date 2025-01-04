@@ -7,8 +7,9 @@ function Home() {
   return (
     <>
       <Hero/>
-      <Services/>
       <Carousel/>
+
+      <Services/>
     </>
   )
 }

@@ -4,7 +4,8 @@
  .services{
  
    align-items: center;
-    margin: 0;
+    /* margin: 20px; */
+	padding: 2rem;
 	display:flex;
 	flex-direction: column;
 	justify-content: center;
@@ -27,7 +28,7 @@
  
 .service-card{
 	position: relative;
-	height: 600px;
+	height: 500px;
 	width: 100%;
 	/* margin: 10px 0; */
 	transition: ease all 2.3s;
