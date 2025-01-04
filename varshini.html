@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Ashwin begins */
+
+.team-section {
+  background-color: blue;
+  /* height: 700px; */
+  
+}
+
+.team-content{
+  background-color: bisque;
+  text-align: center;
+  
+}
+
+.team-card-container{
+  background-color: red;
+  /* height: 500px; */
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.team-card{
+  background-color: rgb(173, 220, 240);
+  height: 300px;
+  width: 300px;
+  border-radius: 5%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.team-card img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+
+.social-acc{
+  display: flex;
+  width: 90%;
+  justify-content: center ;
+  gap: 30px;
+  margin-bottom: auto;
+}
+
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="team-section">
+          <div class="team-content">
+            <h2>Lets Meet Our Team</h2>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Recusandae illum praesentium doloribus libero qui aut!
+            </p>
+          </div>
+          <div id="team" class="team-card-container">
+          
+          
+          </div>
+        </div>
+      </section>
+    
+<script>
+    let container=document.getElementById('team');
+let name="pettha"
+    for(let i=0;i<8;i++){
+    container.innerHTML+=`    
+              <div class="team-card">
+              <img src="public/Images/al.jpg" />
+              <p>${name}</p>
+              <p>CEO, Giglabs </p>
+              <p>Used to be chorepat, but she's better</p>
+              <div class=social-acc">
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-square-x-twitter"></i>    
+              </div>
+            </div>`
+        }
+        const teamMembers = [
+        {
+            img: "public/Images/al.jpg",
+            name: "Varshini Petha",
+            title: "CEO, Giglabs",
+            description: "Used to be chorepat, but she's better",
+            social: ["fa-linkedin", "fa-square-facebook", "fa-square-x-twitter"]
+        },
+        {
+            img: "public/Images/john.jpg",
+            name: "John Doe",
+            title: "CTO, Giglabs",
+            description: "Tech enthusiast and innovator",
+            social: ["fa-linkedin", "fa-square-facebook", "fa-square-x-twitter"]
+        },
+        {
+            img: "public/Images/jane.jpg",
+            name: "Jane Smith",
+            title: "COO, Giglabs",
+            description: "Expert in operations and logistics",
+            social: ["fa-linkedin", "fa-square-facebook", "fa-square-x-twitter"]
+        }
+    ];
+        let num=[1,2,3,4,2]
+// .forEach(element => {
+//             console.log(element)
+//         });
+
+console.log(teamMembers[0].title)
+teamMembers.forEach(mem=>{
+    console.log(mem.name)
+})
+</script>
+</body>
+</html>

@@ -107,3 +107,81 @@
   margin: 1rem 1rem;
 }
 }
+
+
+/* Ashwin begins */
+
+.team-section {
+  background-color: rgb(255, 255, 255);
+  /* height: 700px; */
+  
+}
+
+.team-content{
+  background-color: #38afc46e;
+  text-align: center;
+  
+}
+
+.team-card-container{
+  background-color: rgb(252, 252, 252);
+  /* height: 500px; */
+  width: 100%;
+  display: flex;
+  flex-wrap:wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px 0;
+}
+
+.team-card{
+  background-color: #38afc46e;
+  height: 300px;
+  width: 300px;
+  border-radius: 5%;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.team-card img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: auto;
+  
+}
+
+.social-acc{
+  display: flex;
+  width: 90%;
+  justify-content: center ;
+  gap: 30px;
+  margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
