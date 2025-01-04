@@ -1,9 +1,12 @@
 import React from 'react'
+import BlogHero from './BlogHero';
 import './Blog.css'
 
 function Blog() {
   return (
     <>
+    <BlogHero/>
+
     <section className="bg">
 
     <div 
