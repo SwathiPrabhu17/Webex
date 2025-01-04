@@ -72,10 +72,23 @@ function About() {
             </p>
           </div>
           <div className="team-card-container">
+
             <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
+              <p>Lorem ipsum dolor sit.</p>
+              <div className="social-acc">
+              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-square-facebook"></i>
+              <i className="fa-brands fa-square-x-twitter"></i>    
+              </div>
+            </div>
+
+            <div className="team-card">
+              <img src="/Images/al.jpg" />
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
@@ -85,63 +98,58 @@ function About() {
             </div>
             <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-square-facebook"></i>
               <i className="fa-brands fa-square-x-twitter"></i>    
               </div>
-            </div>
-            <div className="team-card">
+            </div>     <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-square-facebook"></i>
               <i className="fa-brands fa-square-x-twitter"></i>    
               </div>
-            </div>
-            <div className="team-card">
+            </div>     <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-square-facebook"></i>
               <i className="fa-brands fa-square-x-twitter"></i>    
               </div>
-            </div>
-            <div className="team-card">
+            </div>     <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-square-facebook"></i>
               <i className="fa-brands fa-square-x-twitter"></i>    
               </div>
-            </div>
-            <div className="team-card">
+            </div>     <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
               <i className="fa-brands fa-square-facebook"></i>
               <i className="fa-brands fa-square-x-twitter"></i>    
               </div>
-            </div>
-            <div className="team-card">
+            </div>     <div className="team-card">
               <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
+              <h5>Johm Doe</h5>
+              <h6>Team Leader </h6>
               <p>Lorem ipsum dolor sit.</p>
               <div className="social-acc">
               <i className="fa-brands fa-linkedin"></i>
@@ -149,18 +157,9 @@ function About() {
               <i className="fa-brands fa-square-x-twitter"></i>    
               </div>
             </div>
-            <div className="team-card">
-              <img src="/Images/al.jpg" />
-              <p>John Doe</p>
-              <p>CEO, XYZ </p>
-              <p>Lorem ipsum dolor sit.</p>
-              <div className="social-acc">
-              <i className="fa-brands fa-linkedin"></i>
-              <i className="fa-brands fa-square-facebook"></i>
-              <i className="fa-brands fa-square-x-twitter"></i>    
-              </div>
+
             </div>
-          </div>
+          
         </div>
       </section>
     </>
